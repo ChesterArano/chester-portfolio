@@ -7,7 +7,7 @@ type ProjectType = "all" | "qa";
 interface Project {
   title: string;
   description: string;
-  type: "qa";
+  type: string;
   image?: string;
   carouselImages?: string[];
   tags: string[];
@@ -20,7 +20,7 @@ const projects: Project[] = [
     title: "IT Support & System Deployment (OJT Experience)",
     description:
       "Performed operating system installation and configuration on workstations, assembled desktop computers, and conducted hardware testing. Assisted in network cabling and device connectivity, ensuring stable connections and proper cable management. Also supported workstation setup and deployment for end-users.",
-    type: "qa",
+    type: "IT Support",
     carouselImages: [
       "/assets/ojt-1.jpg",
       "/assets/ojt-2.jpg",
@@ -38,7 +38,7 @@ const projects: Project[] = [
     title: "Kiosk System Maintenance and Technical Support (OJT Experience)",
     description:
       "Performed on-site troubleshooting, cleaning, and preventive maintenance of kiosk machines. Diagnosed hardware issues, inspected internal components, and conducted basic repairs to ensure stable system performance. Monitored units after maintenance to maintain reliability and functionality.",
-    type: "qa",
+    type: "IT Support",
     carouselImages: ["/assets/ojt-4.jpg", "/assets/ojt-5.jpg"],
     tags: [
       "Troubleshooting",
@@ -172,7 +172,7 @@ export function Projects() {
                     style={{ fontFamily: "'Fira Code', monospace" }}
                   >
                     <Bug size={10} />
-                    QA / IT
+                    {project.type}
                   </span>
                 </div>
               </div>
