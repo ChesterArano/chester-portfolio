@@ -25,6 +25,7 @@ const projects: Project[] = [
       "/assets/ojt-1.jpg",
       "/assets/ojt-2.jpg",
       "/assets/ojt-3.jpg",
+      "/assets/ojt-6.jpg",
     ],
     tags: ["OS Installation", "PC Assembly", "Network Cabling", "Troubleshooting", "Workstation Setup"],
     highlights: [
