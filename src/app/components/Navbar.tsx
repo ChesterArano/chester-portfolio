@@ -49,12 +49,14 @@ export function Navbar() {
         {/* Logo */}
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="font-mono text-[#64ffda] hover:text-[#64ffda]/80 transition-colors"
-          style={{ fontFamily: "'Fira Code', monospace", fontSize: "1.1rem" }}
+          className="flex items-center overflow-hidden rounded-full transition-transform duration-200 hover:scale-105"
+          aria-label="Home"
         >
-          <span className="text-[#8892b0]">&lt;</span>
-          CJ
-          <span className="text-[#8892b0]">/&gt;</span>
+          <img
+            src="/assets/logo.jpg"
+            alt="Chester Portfolio Logo"
+            className="h-10 w-10 object-cover"
+          />
         </button>
 
         {/* Desktop Nav */}
