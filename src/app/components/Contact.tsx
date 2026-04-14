@@ -78,8 +78,8 @@ export function Contact() {
                 {
                   icon: <Phone size={22} />,
                   label: "Phone",
-                  value: "+63 912 345 6789",
-                  href: "tel:+639123456789",
+                  value: "+63 912 363 8835",
+                  href: "tel:+639123638835",
                   sub: "Call or message me",
                   cta: "Call / Text",
                 },
