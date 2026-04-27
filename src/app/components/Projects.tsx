@@ -17,6 +17,36 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Accounting System - Development & QA Testing (OJT Experience)",
+    description:
+      "Participated as a development team member for an Accounting System created for Kubo-ware Software Development Services during my OJT. Contributed to the development process while also performing comprehensive QA and testing activities to ensure system reliability, accuracy, and quality. Performed functional testing, bug identification, and validation of accounting features.",
+    type: "QA/Dev",
+    image: "/assets/Qa-dev1.png",
+    tags: ["QA Testing", "Software Development", "Accounting System", "Bug Testing", "Quality Assurance", "System Validation"],
+    highlights: [
+      "Development team participation",
+      "Comprehensive QA and testing",
+      "Functional testing of accounting features",
+      "Bug identification and reporting",
+      "System validation and quality assurance",
+    ],
+  },
+  {
+    title: "Barangay Management System - QA Testing (OJT Experience)",
+    description:
+      "Performed QA and testing activities for a Barangay Management System offered by Kubo-ware Software Development Services to clients and future clients. Conducted thorough testing to identify issues, ensure functionality, and validate system performance. Provided detailed testing reports and feedback to ensure the system meets client requirements.",
+    type: "QA/Testing",
+    image: "/assets/Qa2.png",
+    tags: ["QA Testing", "System Testing", "Barangay Management", "Quality Assurance", "Bug Testing", "Client Solutions"],
+    highlights: [
+      "QA and testing execution",
+      "Comprehensive system validation",
+      "Issue identification and reporting",
+      "Functionality verification",
+      "Testing documentation and feedback",
+    ],
+  },
+  {
     title: "IT Support & System Deployment (OJT Experience)",
     description:
       "Performed operating system installation and configuration on workstations, assembled desktop computers, and conducted hardware testing. Assisted in network cabling and device connectivity, ensuring stable connections and proper cable management. Also supported workstation setup and deployment for end-users.",

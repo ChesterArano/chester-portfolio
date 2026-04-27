@@ -103,7 +103,7 @@ export function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-wrap gap-4 mb-16">
             <button
-              onClick={() => scrollTo("projects")}
+              onClick={() => scrollTo("experience")}
               className="px-7 py-3 bg-transparent border border-[#64ffda] text-[#64ffda] rounded hover:bg-[#64ffda]/10 transition-all duration-200 text-sm"
               style={{ fontFamily: "'Fira Code', monospace" }}
             >
