@@ -3,7 +3,7 @@ import { ArrowDown, Linkedin, Mail, FileText } from "lucide-react";
 
 const roles = [
   "Software Tester",
-  "IT Support Specialist",
+  "IT Support L1",
   
 ];
 
@@ -91,13 +91,19 @@ export function Hero() {
 
           {/* Description */}
           <p
-            className="text-[#8892b0] mb-10 max-w-2xl"
-            style={{ fontSize: "1.05rem", lineHeight: 1.8, fontFamily: "'Inter', sans-serif" }}
+            className="text-justify text-[#8892b0] mb-10 max-w-2xl"
+            style={{ fontSize: "1.08rem", lineHeight: 1.8, fontFamily: "'Inter', sans-serif" }}
           >
             I specialize in{" "}
             <span className="text-[#ccd6f6]">Quality Assurance</span> and{" "}
-            <span className="text-[#ccd6f6]">IT Support</span>, ensuring
-            software systems are reliable, well-tested, and running smoothly. With expertise in manual testing, bug tracking, and technical troubleshooting, I deliver quality solutions that keep systems and users satisfied.
+            <span className="text-[#ccd6f6]">IT Support</span>, 
+           with hands-on experience in manual software testing, 
+           test case creation and execution, bug reporting, system validation, 
+           and technical troubleshooting. I also have experience in hardware and 
+           software support, operating system installation, computer assembly,
+            system maintenance, and basic network diagnostics. I am committed to
+             ensuring that software and systems are reliable, functional, 
+             and properly maintained while providing effective technical support to users.
           </p>
 
           {/* CTA Buttons */}

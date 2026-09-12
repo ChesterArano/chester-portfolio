@@ -33,21 +33,26 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Text Content */}
           <div>
-            <div className="space-y-5 text-[#8892b0] mb-8" style={{ fontFamily: "'Inter', sans-serif", lineHeight: 1.8 }}>
+            <div className="space-y-5 text-justify text-[#8892b0] mb-8" style={{ fontFamily: "'Inter', sans-serif", lineHeight: 1.7 }}>
               <p>
                 Hello! I'm <span className="text-[#64ffda]">Chester Jeff A. Araño</span>, a dedicated{" "}
                 <span className="text-[#64ffda]">Software Tester</span> and{" "}
-                <span className="text-[#64ffda]">IT Support Specialist</span> with a
+                <span className="text-[#64ffda]">IT Support L1</span> with a
                 passion for ensuring software quality and delivering reliable technical
                 solutions. My primary focus is on breaking systems so users don't have
                 to — and fixing them when they do.
               </p>
               <p>
-                I have hands-on experience in manual testing, bug
-                tracking, system troubleshooting, and network maintenance. I take pride
-                in writing detailed test plans, executing comprehensive test cases, and
-                producing clear defect reports that help development teams ship
-                high-quality software.
+             I have hands-on experience in Quality Assurance,
+              manual software testing, bug reporting, technical support, 
+              system troubleshooting, and basic networking. I am skilled in 
+              creating and executing test cases, identifying and documenting 
+              software defects, and performing system validation to help ensure
+               reliable software. I also have experience in hardware troubleshooting,
+                operating system installation, computer assembly, system maintenance,
+                and basic network diagnostics. I am detail-oriented, willing to learn,
+                 and committed to providing reliable technical support and helping deliver
+                  quality software and systems.
               </p>
             </div>
 

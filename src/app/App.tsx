@@ -5,6 +5,7 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+// @ts-expect-error The project does not provide TypeScript declarations for CSS side-effect imports.
 import "../styles/fonts.css";
 
 export default function App() {
